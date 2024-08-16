@@ -1,3 +1,3 @@
 module github.com/lkonya/go-setup/cmd/cmd1
 
-go 1.22.6
+go 1.22.5

@@ -17,6 +17,8 @@ jobs:
 
       - name: Setup Go
         uses: actions/setup-go@v5
+        with:
+          go-version-file: 'cmd/cmd1/go.mod'
 
-      - name: Test
-        run: go test ./...
+      - name: version
+        run: go version

@@ -1,3 +1,3 @@
 module github.com/lkonya/go-setup
 
-go 1.20
+go 1.22.6
